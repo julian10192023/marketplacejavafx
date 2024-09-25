@@ -5,4 +5,5 @@ module co.edu.uniquindio.marketplace_fx.marketplaceapp {
 
     opens co.edu.uniquindio.marketplace_fx.marketplaceapp to javafx.fxml;
     exports co.edu.uniquindio.marketplace_fx.marketplaceapp;
+    opens co.edu.uniquindio.marketplace_fx.marketplaceapp.controller;
 }

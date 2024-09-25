@@ -4,9 +4,9 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-
 
 <AnchorPane prefHeight="486.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.marketplace_fx.marketplaceapp.controller.VendedorController">
    <children>
@@ -14,9 +14,9 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <Label layoutX="14.0" layoutY="5.0" text="informacion del vendedor" />
+                  <Label layoutX="294.0" layoutY="5.0" text="INFORMACION DEL VENDEDOR" />
                   <Label layoutX="51.0" layoutY="62.0" prefHeight="18.0" prefWidth="62.0" text="NOMBRE" />
-                  <Button fx:id="btnAgregarVendedor" layoutX="292.0" layoutY="280.0" mnemonicParsing="false" onAction="#onAgregarCliente" text="agregar vendedor" />
+                  <Button fx:id="btnAgregarVendedor" layoutX="51.0" layoutY="280.0" mnemonicParsing="false" onAction="#onAgregarVendedor" prefHeight="26.0" prefWidth="78.0" text="agregar" />
                   <TextField fx:id="txtNombre" layoutX="130.0" layoutY="59.0" prefHeight="26.0" prefWidth="195.0" />
                   <Separator layoutX="5.0" layoutY="34.0" prefHeight="0.0" prefWidth="689.0" />
                   <Label layoutX="51.0" layoutY="141.0" prefHeight="18.0" prefWidth="62.0" text="CEDULA" />
@@ -29,9 +29,15 @@
                   <Label layoutX="348.0" layoutY="228.0" prefHeight="18.0" prefWidth="98.0" text="CONTRASEÑA" />
                   <TextField fx:id="txtContrasenia" layoutX="433.0" layoutY="224.0" prefHeight="26.0" prefWidth="195.0" />
                   <TextField fx:id="txtUsuario" layoutX="128.0" layoutY="224.0" prefHeight="26.0" prefWidth="195.0" />
+                  <Button fx:id="btnMostrarVendedor" layoutX="228.0" layoutY="280.0" mnemonicParsing="false" onAction="#onMostrarVendedor" prefHeight="26.0" prefWidth="78.0" text="mostrar " />
+                  <Button fx:id="btnActualizarVendedor" layoutX="394.0" layoutY="280.0" mnemonicParsing="false" onAction="#onActualizarVendedor" prefHeight="26.0" prefWidth="78.0" text="actualizar" />
+                  <Button fx:id="btnEliminarVendedor" layoutX="578.0" layoutY="280.0" mnemonicParsing="false" onAction="#onEliminarVendedor" prefHeight="26.0" prefWidth="78.0" text="eliminar" />
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="192.0" prefWidth="735.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="192.0" prefWidth="735.0">
+               <children>
+                  <TextArea fx:id="txtResultado" prefHeight="158.0" prefWidth="698.0" />
+               </children></AnchorPane>
         </items>
       </SplitPane>
    </children>

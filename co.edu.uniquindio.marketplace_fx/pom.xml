@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                co.edu.uniquindio.marketplace_fx.marketplaceapp/co.edu.uniquindio.marketplace_fx.marketplaceapp.HelloApplication
+                                co.edu.uniquindio.marketplace_fx.marketplaceapp/co.edu.uniquindio.marketplace_fx.marketplaceapp.MarketplaceApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

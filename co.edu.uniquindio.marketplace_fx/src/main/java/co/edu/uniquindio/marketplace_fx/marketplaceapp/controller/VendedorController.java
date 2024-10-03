@@ -46,10 +46,10 @@ public class VendedorController {
     private TextField txtNombre;
 
     @FXML
-    private TextField txtUsuario;
+    private TextArea txtResultado;
 
     @FXML
-    private TextArea txtResultado;
+    private TextField txtUsuario;
 
     @FXML
     void onActualizarVendedor(ActionEvent event) {

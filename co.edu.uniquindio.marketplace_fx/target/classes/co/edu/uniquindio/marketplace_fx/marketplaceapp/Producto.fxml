@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="556.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.marketplace_fx.marketplaceapp.controller.ProductoController">
+   <children>
+      <SplitPane dividerPositions="0.7020202020202019" orientation="VERTICAL" prefHeight="556.0" prefWidth="766.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="354.0" prefWidth="765.0">
+               <children>
+                  <Label layoutX="296.0" layoutY="14.0" text="INFORMACION DEL PRODUCTO" />
+                  <Separator layoutX="6.0" layoutY="36.0" prefHeight="0.0" prefWidth="758.0" />
+                  <Label layoutX="416.0" layoutY="263.0" text="CATEGORIA" />
+                  <Label layoutX="74.0" layoutY="327.0" prefHeight="18.0" prefWidth="63.0" text="PRECIO" />
+                  <Label layoutX="416.0" layoutY="327.0" prefHeight="18.0" prefWidth="63.0" text="ESTADO" />
+                  <Label layoutX="331.0" layoutY="51.0" prefHeight="18.0" prefWidth="63.0" text="IMAGEN" />
+                  <Label layoutX="74.0" layoutY="263.0" text="NOMBRE" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="263.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+                  <TextField fx:id="txtNombre" layoutX="137.0" layoutY="258.0" prefHeight="26.0" prefWidth="195.0" />
+                  <TextField fx:id="txtNombre1" layoutX="137.0" layoutY="323.0" prefHeight="26.0" prefWidth="195.0" />
+                  <TextField fx:id="txtNombre11" layoutX="505.0" layoutY="258.0" prefHeight="26.0" prefWidth="195.0" />
+                  <ChoiceBox layoutX="505.0" layoutY="323.0" prefHeight="26.0" prefWidth="195.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

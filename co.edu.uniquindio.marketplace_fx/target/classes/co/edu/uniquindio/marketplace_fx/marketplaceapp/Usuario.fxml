@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="507.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.marketplace_fx.marketplaceapp.controller.UsuarioController">
+   <children>
+      <SplitPane dividerPositions="0.6313291139240507, 0.5" orientation="VERTICAL" prefHeight="507.0" prefWidth="724.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" text="informacion del usuario" />
+                  <Separator layoutY="34.0" prefHeight="0.0" prefWidth="724.0" />
+                  <Button layoutX="324.0" layoutY="271.0" mnemonicParsing="false" text="agregar usuario" />
+                  <Label layoutX="36.0" layoutY="64.0" text="NOMBRE" />
+                  <Label layoutX="341.0" layoutY="116.0" prefHeight="26.0" prefWidth="62.0" text="DIRECCION" />
+                  <Label layoutX="341.0" layoutY="63.0" prefHeight="18.0" prefWidth="69.0" text="APELLIDOS" />
+                  <Label layoutX="36.0" layoutY="120.0" prefHeight="18.0" prefWidth="70.0" text="CEDULA" />
+                  <Label layoutX="36.0" layoutY="185.0" prefHeight="18.0" prefWidth="70.0" text="USUARIO" />
+                  <Label layoutX="338.0" layoutY="185.0" text="CONTRASEÑA" />
+                  <TextField fx:id="txtNombre" layoutX="95.0" layoutY="60.0" prefHeight="26.0" prefWidth="227.0" />
+                  <TextField layoutX="95.0" layoutY="116.0" prefHeight="26.0" prefWidth="227.0" />
+                  <TextField layoutX="95.0" layoutY="180.0" prefHeight="26.0" prefWidth="227.0" />
+                  <TextField fx:id="txtApellidos" layoutX="427.0" layoutY="59.0" prefHeight="26.0" prefWidth="227.0" />
+                  <TextField layoutX="427.0" layoutY="116.0" prefHeight="26.0" prefWidth="227.0" />
+                  <TextField layoutX="427.0" layoutY="181.0" prefHeight="26.0" prefWidth="227.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+            <TextField />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
